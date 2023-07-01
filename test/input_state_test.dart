@@ -1,4 +1,4 @@
-import 'package:flutter_screen_lock/src/input_controller.dart';
+import 'package:auth_screen_lock/src/input_controller.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

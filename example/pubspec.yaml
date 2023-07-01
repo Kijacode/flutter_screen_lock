@@ -14,7 +14,7 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
-  flutter_screen_lock:
+  auth_screen_lock:
     path: ../
   local_auth: 1.1.0
   platform: ^3.1.0

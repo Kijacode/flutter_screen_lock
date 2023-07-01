@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:ui';
 
+import 'package:auth_screen_lock/auth_screen_lock.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screen_lock/flutter_screen_lock.dart';
-import 'package:flutter_screen_lock/src/layout/key_pad.dart';
+import 'package:auth_screen_lock/src/layout/key_pad.dart';
 
 class ScreenLock extends StatefulWidget {
   /// Animated ScreenLock
@@ -313,7 +313,7 @@ class _ScreenLockState extends State<ScreenLock> {
 
     return Builder(
       builder: (context) => DefaultTextStyle(
-        style: Theme.of(context).textTheme.headline6!,
+        style: Theme.of(context).textTheme.titleLarge!,
         textAlign: TextAlign.center,
         child: buildDelay(
           buildConfirmed(

@@ -1,4 +1,4 @@
-library flutter_screen_lock;
+library auth_screen_lock;
 
 export 'src/configurations/key_pad_button_config.dart';
 export 'src/configurations/key_pad_config.dart';

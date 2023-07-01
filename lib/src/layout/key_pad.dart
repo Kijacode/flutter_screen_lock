@@ -1,6 +1,6 @@
+import 'package:auth_screen_lock/auth_screen_lock.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screen_lock/flutter_screen_lock.dart';
-import 'package:flutter_screen_lock/src/layout/key_pad_button.dart';
+import 'package:auth_screen_lock/src/layout/key_pad_button.dart';
 
 /// [GridView] or [Wrap] make it difficult to specify the item size intuitively.
 /// We therefore arrange them manually with [Column]s and [Row]s
@@ -27,7 +27,7 @@ class KeyPad extends StatelessWidget {
   final Widget? cancelButton;
 
   KeyPadButtonConfig get actionButtonConfig =>
-      config.actionButtonConfig ?? const KeyPadButtonConfig(fontSize: 18);
+      config.actionButtonConfig ??  KeyPadButtonConfig(fontSize: 18);
 
   Widget _buildDeleteButton() {
     return KeyPadButton.transparent(
