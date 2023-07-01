@@ -42,6 +42,8 @@ class _MyHomePageState extends State<MyHomePage> {
             onUnlocked: Navigator.of(context).pop,
             keyPadConfig: KeyPadConfig(
                 buttonConfig: KeyPadButtonConfig(
+                  side:  const MaterialStatePropertyAll(
+            BorderSide(color: Colors.green, width: 3)),
                     backgroundColor: Colors.orange,
                     child: Container(
                       padding: const EdgeInsets.all(20),
