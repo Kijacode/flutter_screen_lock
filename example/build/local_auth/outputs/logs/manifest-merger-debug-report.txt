@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:1:1-5:12
+	package
+		ADDED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:2:3-41
+		INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:3:5-46
+INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:3:5-46
+INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:3:5-46
+INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:3:5-46
+INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:3:5-46
+	android:targetSdkVersion
+		ADDED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:3:15-44
+		INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml
+		ADDED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:4:5-74
+	android:name
+		ADDED from /Users/ab02488/.pub-cache/hosted/pub.dev/local_auth-1.1.0/android/src/main/AndroidManifest.xml:4:22-71

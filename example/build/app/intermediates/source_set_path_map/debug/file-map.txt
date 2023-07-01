@@ -1,0 +1,17 @@
+com.example.example.app-appcompat-1.1.0-rc01-0 /Users/ab02488/.gradle/caches/transforms-3/0cb440ba833d434617ab5ebcacb9257c/transformed/appcompat-1.1.0-rc01/res
+com.example.example.app-jetified-window-1.0.0-beta04-1 /Users/ab02488/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+com.example.example.app-biometric-1.0.0-beta01-2 /Users/ab02488/.gradle/caches/transforms-3/5b7f7a4025fc20c457ff5f8729c28657/transformed/biometric-1.0.0-beta01/res
+com.example.example.app-jetified-annotation-experimental-1.1.0-3 /Users/ab02488/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.example.app-core-1.6.0-4 /Users/ab02488/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+com.example.example.app-jetified-window-java-1.0.0-beta04-5 /Users/ab02488/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.example.app-jetified-appcompat-resources-1.1.0-rc01-6 /Users/ab02488/.gradle/caches/transforms-3/f5d55d238be9a48410228421a17c390d/transformed/jetified-appcompat-resources-1.1.0-rc01/res
+com.example.example.app-debug-7 /Users/ab02488/projects/research/flutter_screen_lock/example/android/app/src/debug/res
+com.example.example.app-main-8 /Users/ab02488/projects/research/flutter_screen_lock/example/android/app/src/main/res
+com.example.example.app-pngs-9 /Users/ab02488/projects/research/flutter_screen_lock/example/build/app/generated/res/pngs/debug
+com.example.example.app-resValues-10 /Users/ab02488/projects/research/flutter_screen_lock/example/build/app/generated/res/resValues/debug
+com.example.example.app-rs-11 /Users/ab02488/projects/research/flutter_screen_lock/example/build/app/generated/res/rs/debug
+com.example.example.app-mergeDebugResources-12 /Users/ab02488/projects/research/flutter_screen_lock/example/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.example.app-mergeDebugResources-13 /Users/ab02488/projects/research/flutter_screen_lock/example/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.example.app-merged_res-14 /Users/ab02488/projects/research/flutter_screen_lock/example/build/app/intermediates/merged_res/debug
+com.example.example.app-packaged_res-15 /Users/ab02488/projects/research/flutter_screen_lock/example/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/debug
+com.example.example.app-packaged_res-16 /Users/ab02488/projects/research/flutter_screen_lock/example/build/local_auth/intermediates/packaged_res/debug
