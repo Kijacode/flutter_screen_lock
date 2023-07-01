@@ -38,8 +38,7 @@ class ScreenLock extends StatefulWidget {
         digits = correctString.length,
         onConfirmed = null,
         secretsConfig = secretsConfig ?? const SecretsConfig(),
-        assert(maxRetries > -1, 'max retries cannot be less than 0'),
-        assert(correctString.length > 0, 'correct string cannot be empty');
+        assert(maxRetries > -1, 'max retries cannot be less than 0');
 
   /// Animated ScreenLock
   const ScreenLock.create({
