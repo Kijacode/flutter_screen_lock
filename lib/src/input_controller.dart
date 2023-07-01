@@ -1,7 +1,7 @@
 import 'dart:async';
 
+import 'package:auth_screen_lock/auth_screen_lock.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screen_lock/flutter_screen_lock.dart';
 
 class InputController {
   InputController();

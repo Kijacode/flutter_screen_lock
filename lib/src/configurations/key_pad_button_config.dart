@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
 
 class KeyPadButtonConfig {
-  const KeyPadButtonConfig({
-    double? size,
-    double? fontSize,
-    double? actionFontSize,
-    this.foregroundColor,
-    this.backgroundColor,
-    this.buttonStyle,
-  })  : size = size ?? 68,
+  KeyPadButtonConfig(
+      {double? size,
+      double? fontSize,
+      double? actionFontSize,
+      this.foregroundColor,
+      this.backgroundColor,
+      this.side,
+      this.buttonStyle,
+      this.child})
+      : size = size ?? 68,
         fontSize = fontSize ?? 36;
+
+  Widget? child;
 
   /// Button width and height.
   final double size;
@@ -26,6 +30,8 @@ class KeyPadButtonConfig {
   /// Base [ButtonStyle] that is overridden by other specified values.
   final ButtonStyle? buttonStyle;
 
+  final MaterialStateProperty<BorderSide?>? side;
+
   /// Returns this config as a [ButtonStyle].
   ButtonStyle toButtonStyle() {
     ButtonStyle composed = OutlinedButton.styleFrom(
@@ -41,6 +47,7 @@ class KeyPadButtonConfig {
         textStyle: composed.textStyle,
         foregroundColor: composed.foregroundColor,
         backgroundColor: composed.backgroundColor,
+        side:side
       );
     } else {
       return composed;
@@ -48,19 +55,19 @@ class KeyPadButtonConfig {
   }
 
   /// Copies a [KeyPadButtonConfig] with new values.
-  KeyPadButtonConfig copyWith({
-    double? size,
-    double? fontSize,
-    Color? foregroundColor,
-    Color? backgroundColor,
-    ButtonStyle? buttonStyle,
-  }) {
+  KeyPadButtonConfig copyWith(
+      {double? size,
+      double? fontSize,
+      Color? foregroundColor,
+      Color? backgroundColor,
+      ButtonStyle? buttonStyle,
+      Widget? child}) {
     return KeyPadButtonConfig(
-      size: size ?? this.size,
-      fontSize: fontSize ?? this.fontSize,
-      foregroundColor: foregroundColor ?? this.foregroundColor,
-      backgroundColor: backgroundColor ?? this.backgroundColor,
-      buttonStyle: buttonStyle ?? this.buttonStyle,
-    );
+        size: size ?? this.size,
+        fontSize: fontSize ?? this.fontSize,
+        foregroundColor: foregroundColor ?? this.foregroundColor,
+        backgroundColor: backgroundColor ?? this.backgroundColor,
+        buttonStyle: buttonStyle ?? this.buttonStyle,
+        child: child);
   }
 }

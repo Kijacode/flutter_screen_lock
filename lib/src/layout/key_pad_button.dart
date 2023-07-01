@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screen_lock/src/configurations/key_pad_button_config.dart';
+import 'package:auth_screen_lock/src/configurations/key_pad_button_config.dart';
 
 /// Button in a [KeyPad].
 class KeyPadButton extends StatelessWidget {
-  const KeyPadButton({
+   KeyPadButton({
     super.key,
     this.child,
     required this.onPressed,
     this.onLongPress,
     KeyPadButtonConfig? config,
-  }) : config = config ?? const KeyPadButtonConfig();
+  }) : config = config ??  KeyPadButtonConfig();
 
   factory KeyPadButton.transparent({
     Key? key,

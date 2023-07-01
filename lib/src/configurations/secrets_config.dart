@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screen_lock/src/configurations/secret_config.dart';
+import 'package:auth_screen_lock/src/configurations/secret_config.dart';
 
 class SecretsConfig {
   const SecretsConfig({

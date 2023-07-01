@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screen_lock/src/configurations/secret_config.dart';
-import 'package:flutter_screen_lock/src/configurations/secrets_config.dart';
+import 'package:auth_screen_lock/src/configurations/secret_config.dart';
+import 'package:auth_screen_lock/src/configurations/secrets_config.dart';
 
 class SecretsWithShakingAnimation extends StatefulWidget {
   const SecretsWithShakingAnimation({

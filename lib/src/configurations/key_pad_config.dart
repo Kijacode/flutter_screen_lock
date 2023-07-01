@@ -1,4 +1,4 @@
-import 'package:flutter_screen_lock/flutter_screen_lock.dart';
+import 'package:auth_screen_lock/auth_screen_lock.dart';
 
 class KeyPadConfig {
   const KeyPadConfig({
