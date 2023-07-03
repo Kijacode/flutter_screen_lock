@@ -37,9 +37,10 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: const EdgeInsets.all(16),
           child: Center(
               child: ScreenLock(
-            correctString: '1234',
+            digits:4,
             onCancelled: Navigator.of(context).pop,
             onUnlocked: Navigator.of(context).pop,
+            useBlur: false,
             keyPadConfig: KeyPadConfig(
                 buttonConfig: KeyPadButtonConfig(
                   side:  const MaterialStatePropertyAll(
