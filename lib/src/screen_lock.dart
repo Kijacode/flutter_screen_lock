@@ -10,7 +10,7 @@ class ScreenLock extends StatefulWidget {
   /// Animated ScreenLock
   const ScreenLock({
     super.key,
-    required String this.correctString,
+    this.correctString,
     required VoidCallback this.onUnlocked,
     this.onOpened,
     this.onValidate,
@@ -33,16 +33,15 @@ class ScreenLock extends StatefulWidget {
     this.secretsBuilder,
     this.useBlur = true,
     this.useLandscape = true,
+    required this.digits,
   })  : title = title ?? const Text('Please enter passcode.'),
         confirmTitle = null,
-        digits = correctString.length,
         onConfirmed = null,
         secretsConfig = secretsConfig ?? const SecretsConfig(),
-        assert(maxRetries > -1, 'max retries cannot be less than 0'),
-        assert(correctString.length > 0, 'correct string cannot be empty');
+        assert(maxRetries > -1, 'max retries cannot be less than 0');
 
   /// Animated ScreenLock
-  const ScreenLock.create({
+  const ScreenLock.createc({
     super.key,
     required ValueChanged<String> this.onConfirmed,
     this.onOpened,
@@ -165,6 +164,8 @@ class ScreenLock extends StatefulWidget {
 
   @override
   State<ScreenLock> createState() => _ScreenLockState();
+
+  static create({required ValueChanged<String> onConfirmed, VoidCallback? onOpened, ValidationCallback? onValidate, void Function()? onCancelled, ValueChanged<int>? onError, ValueChanged<int>? onMaxRetries, required int maxRetries, required int digits, required Duration retryDelay, Widget? title, Widget? confirmTitle, ScreenLockConfig? config, SecretsConfig? secretsConfig, KeyPadConfig? keyPadConfig, DelayBuilderCallback? delayBuilder, Widget? customizedButtonChild, VoidCallback? customizedButtonTap, Widget? footer, Widget? cancelButton, Widget? deleteButton, InputController? inputController, SecretsBuilderCallback? secretsBuilder, required bool useBlur, required bool useLandscape}) {}
 }
 
 class _ScreenLockState extends State<ScreenLock> {

@@ -86,7 +86,7 @@ Future<void> screenLock({
           inputController: inputController,
           secretsBuilder: secretsBuilder,
           useBlur: useBlur,
-          useLandscape: useLandscape,
+          useLandscape: useLandscape, digits: 4,
         ),
       ),
       transitionsBuilder: (context, animation, secondaryAnimation, child) =>
