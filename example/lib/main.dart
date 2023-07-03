@@ -30,21 +30,21 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
           title: const Text('Next Screen Lock'),
         ),
-        body: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Center(
-              child: ScreenLock(
-            digits:4,
+        body: Container(
+          color: Colors.transparent,
+          child: ScreenLock(
+            digits: 4,
             onCancelled: Navigator.of(context).pop,
             onUnlocked: Navigator.of(context).pop,
             useBlur: false,
             keyPadConfig: KeyPadConfig(
                 buttonConfig: KeyPadButtonConfig(
-                  side:  const MaterialStatePropertyAll(
-            BorderSide(color: Colors.green, width: 3)),
+                    side: const MaterialStatePropertyAll(
+                        BorderSide(color: Colors.green, width: 3)),
                     backgroundColor: Colors.orange,
                     child: Container(
                       padding: const EdgeInsets.all(20),
@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       foregroundColor:
                           MaterialStateProperty.all<Color>(Colors.yellow),
                       backgroundColor:
-                          MaterialStateProperty.all<Color>(Colors.black),
+                          MaterialStateProperty.all<Color>(Colors.transparent),
                       shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                         RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(60),
@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 // height: config.height,
               ),
             )),
-          )),
+          ),
         ));
   }
 }
