@@ -4,7 +4,7 @@ homepage: https://github.com/Kijacode/flutter_screen_lock.git
 version: 1.0.8 
 
 environment:
-  sdk: ">=3.2.6 <=3.6.0"
+  sdk: ">=3.2.6 <4.0.0"
 
 dependencies:
   flutter:
